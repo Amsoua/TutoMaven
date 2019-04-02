@@ -148,4 +148,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+	  <repository>
+		  <id>deployment</id>
+		  <name>Internal Release</name>
+		  <url>http://192.168.19.134:8081/repository/TutoNexus-Release/</url>
+	  </repository>
+	  <snapshotRepository>
+		  <id>deployment</id>
+		  <name>Internal Snapshot</name>
+		  <url>http://192.168.19.134:8081/repository/TutoNexus-SNAPSHOT/</url>
+	  </snapshotRepository>
+	</distributionManagement>
 </project>
